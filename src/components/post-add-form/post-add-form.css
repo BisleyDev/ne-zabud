@@ -1,0 +1,15 @@
+.bottom-panel {
+	background-color: #eaf5fc;
+	padding: 20px 0;
+	position: sticky;
+	bottom: 0;
+}
+
+.bottom-panel .new-post-label {
+	width: auto;
+	flex-grow: 1;
+	margin-right: 3px;
+}
+.bottom-panel > button {
+	margin-left: 20px;
+}

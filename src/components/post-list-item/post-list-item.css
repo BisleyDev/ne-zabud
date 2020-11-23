@@ -1,0 +1,63 @@
+.app-list-item {
+	font-size: 1.25rem;
+	text-decoration: line-through;
+}
+
+.app-list-item button {
+	width: 35px;
+	height: 35px;
+	margin: 3px;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+.app-list-item button:focus {
+	box-shadow: none;
+	outline: none;
+}
+.app-list-item .btn-star {
+	color: #aeaeae;
+}
+.app-list-item .btn-trash {
+	color: red;
+}
+.app-list-item .fa-shopping-cart {
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 25px;
+	color: red;
+	transition: 0.3s all;
+	transform: translateX(30px);
+	opacity: 0;
+}
+
+.app-list-item-label {
+	width: calc(100% - 130px);
+	display: block;
+	line-height: 35px;
+	cursor: pointer;
+	user-select: none;
+	transition: 0.5s all;
+}
+
+.app-list-item.like .fa-shopping-cart {
+	opacity: 1;
+	transform: translateX(0px);
+}
+.app-list-item.like {
+	text-decoration: none;
+}
+
+.app-list-item.important .app-list-item-label {
+	color: #eb8108;
+}
+
+.app-list-item.important .btn-star {
+	color: #eb8108;
+}
+
+.justify-content-center {
+	align-items: center;
+}

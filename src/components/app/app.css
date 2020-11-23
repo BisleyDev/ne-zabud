@@ -1,0 +1,21 @@
+.app {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.search-panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background-color: #eaf5fc;
+	padding: 15px 0;
+	z-index: 1;
+}
+.search-button-filter {
+	margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+.app-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.app-header h1 {
+	/* width: 150px;
+  height: 150px; */
+	font-size: 26px;
+}
+
+.app-header p {
+	align-items: center;
+	margin: 0;
+}
+
+img {
+	cursor: pointer;
+}

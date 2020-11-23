@@ -1,0 +1,20 @@
+.message-wrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #d4d4cce1;
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+}
+
+.message-wrap > section {
+	color: rgb(143, 21, 21);
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
